@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color:AntiqueWhite;
+}
+
+.links1 {
+	background-color:Moccasin;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	width:30%;
+}
+
+.links1:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.page1 {
+	background-color:FloralWhite;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	margin-right:auto;
+	margin-left:auto;
+	width:30%;
+}
+
+.page1:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.links2 {
+	background-color:Moccasin;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:center;
+	width:30%;
+}
+
+.links2:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.page2 {
+	background-color:FloralWhite;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:center;
+	margin-right:auto;
+	margin-left:auto;
+	width:30%;
+}
+
+.page2:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.links3 {
+	background-color:Moccasin;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:right;
+	width:40%;
+	font-size: 25px;
+}
+
+.links3:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.page3 {
+	background-color:FloralWhite;
+	color:Black;
+	font-size:175%;
+	padding:30px 50px;
+	border-radius:90%;
+	text-align:center;
+	display:inline-block;
+	float:right;
+	margin-right:auto;
+	margin-left:auto;
+	width:40%;
+}
+
+.page3:hover {
+  background-color:PeachPuff;
+  color: Black;
+}
+
+.symptoms {
+	width:55%;
+	float:left;
+}
+
+h2 {
+	 font-family:"Comic Sans MS";
+	 text-align: center;
+}
+
+h3 {
+	text-align:center;
+}
+
+div {
+	float:center;
+}
+
+.card-wrapper {
+    box-shadow:0 15px 35px rgba(0,0,0,0.2),0 5px 15px rgba(0,0,0,0.19);
+    width:25rem;
+	float:left;
+    }
+.card-body {
+    padding:5px 15px;
+    }
+	
+.card-wrapper1 {
+    box-shadow:0 15px 35px rgba(0,0,0,0.2),0 5px 15px rgba(0,0,0,0.19);
+    width:25rem;
+	float:left;
+	width:32%;
+    }
+
+header {
+  background-color:BurlyWood;
+  text-align: center;
+  font-size: 35px;
+  color: Black;
+  width:100%;
+  float:right;
+  float:top;
+  top:0;
+}
+
+nav {
+  float: center;
+  width: 100%;
+  background-color:Cornsilk;
+  position:fixed;
+}
+
+article {
+  float: left;
+  width:50%;
+  padding: 20px;
+ }
+
+ p {
+	 font-size:15px;
+ }
+ 
+ aside {
+	width:50%;
+	float:right;
+	padding:10px;
+	margin:20px;
+}
+ 
+ section::after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  width: 33.3%;
+}
+
+em {
+	color:Purple;
+}
